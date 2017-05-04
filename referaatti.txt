@@ -1,0 +1,27 @@
+Johdannossa kerrotaan tutkimustuloksista, joissa huomattiin että vesiputousmallilla
+kehitetyt ohjelmat epäonnistuvat useimmin kuin ketterästi kehitetyt ohjelmat.
+
+Luvussa 2.1 kuvailtiin miten ketterä menetelmä eroaa vesiputousmallista: Suositaan keskustelua
+ja neuvottelua työkalujen edelle, ja mielummin reagointia muutoksiin kun pitäytymistä suu-
+nitelmissa. Ketterissä menetelmissä on usein tuoda ohjelma tuotantoon , jolloin vältytään
+raskaalta dokumentaatiolta.
+
+Luvussa 2.2 kerrotaan vesiputousmallin ongelmista: Käyttäjät ei voi tietää mitä haluavat ennen
+kuin näkevät ohjelman rungon, siispä suurille suunnitteluille ei kannata tuhlata aikaa.
+Lisäksi kuvailtiin scrummia: Se on iteratiivinen menetelmä, jossa jokaisessa sprintissä teami
+tekee tietyn määrän featureita ohjelmalle. Asiakas eli Product Owner päättää mitkä ominaisuudet
+ovat tärkeimpiä. Scrummissa korostuu tiimin sosiaalisuus ja yhteistyö.
+
+Luvussa 2.3 tutustutaan Kanbaniin. Kanbanissa ei ole iteraatioita, vaan tiimi keskustelee
+keskenään toteutettavista featureista ja milloin joku on valmis tuotantoon vietäväksi.Kanbanissa
+Scrumin tapaan arvioidaan featurien tuntimäärää, ja niitä seurataan todo, ongoing, done listalla.
+Asiakas voi lisätä todo listalle uusia featureita kun haluaa. Kanbanissa ongoing kohdassa
+on rajoite, kuinka monta saa olla kerralla työn alla. Kanbanissa pidetään myös päivittäistapaamisia
+ja on määritelty julkaisupäivät. Läpimenoaika on aika, jossa päästään todo:sta doneen.
+
+Scrumin heikkoutena Kanbaniin on sprintti, joka voi haitata tiimin tuottavuutta. Kanban
+antaa taas tiimille liikaa vapauksia: Sprinttiä, jonka tavoitteena on shippable product
+ ei ole määritelty.
+
+Scrumbanissa yhdistetään Scrumin ja Kanbanin piirteitä. Aika-iteraatiota ei välttämättä ole,
+ja user storyt jaetaan eri "ämpäreihin", riippuen siitä kauanko sen toteutukseen kestää.
