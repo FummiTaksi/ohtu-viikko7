@@ -12,14 +12,13 @@ public class Ihminen implements Pelaaja {
   }
   @Override
   public void setSiirto() {
+    io.print("Pelaajan siirto:");
     this.siirto = io.readLine();
+
   }
   @Override
   public String getSiirto() {
     return siirto;
   }
-  @Override
-  public boolean tekoAlynOhjaama() {
-    return false;
-  }
+
 }

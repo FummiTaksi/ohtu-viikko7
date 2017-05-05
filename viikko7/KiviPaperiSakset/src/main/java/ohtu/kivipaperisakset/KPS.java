@@ -35,15 +35,7 @@ public class KPS {
   }
 
   public void pelaaVuoro(Pelaaja pelaaja) {
-
-    if (pelaaja.tekoAlynOhjaama()) {
-      pelaaja.setSiirto();
-      io.print("Tietokone valitsi: " + pelaaja.getSiirto());
-    }
-    else {
-      io.print("Pelaajan siirto:");
-      pelaaja.setSiirto();
-    }
+    pelaaja.setSiirto();
   }
 
   private static boolean onkoOkSiirto(String siirto) {

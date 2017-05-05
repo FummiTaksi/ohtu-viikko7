@@ -4,9 +4,11 @@ public class Tekoaly implements Pelaaja{
 
     int siirto;
     private String siirronNimi;
+    private IO io;
 
-    public Tekoaly() {
+    public Tekoaly(IO io) {
         siirto = 0;
+        this.io = io;
     }
 
     public String annaSiirto() {
@@ -33,6 +35,7 @@ public class Tekoaly implements Pelaaja{
         } else {
             this.siirronNimi =  "s";
         }
+        io.print("Tietokone valitsi: " + siirronNimi);
     }
     @Override
     public String getSiirto() {
@@ -42,8 +45,5 @@ public class Tekoaly implements Pelaaja{
     void asetaSiirto(String ekanSiirto) {
         // ei tehdä mitään
     }
-    @Override
-    public boolean tekoAlynOhjaama() {
-      return true;
-    }
+
 }

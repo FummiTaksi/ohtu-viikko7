@@ -84,8 +84,6 @@ public class TekoalyParannettu implements Pelaaja {
   public String getSiirto() {
     return siirto;
   }
-  @Override
-  public boolean tekoAlynOhjaama() {
-    return true;
-  }
+
+
 }
